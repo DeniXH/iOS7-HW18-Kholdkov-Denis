@@ -2,7 +2,7 @@ import Foundation
 
 // MARK: Storage place realization
 
-final public class StoragePlace: Thread {
+final public class StoragePlace {
     private var chipStorage: Stack<Chip>
     private var isAvailable = false
     private var condition = NSCondition()
